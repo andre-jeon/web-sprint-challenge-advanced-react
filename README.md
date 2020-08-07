@@ -31,13 +31,17 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 1. Explain how to build stateful class components.
 with a constructor function
 2. Describe the different phases of the component lifecycle.
-mounting, updating, unmounting
+mounting - component is built
+updating -  component updates
+unmounting - component is removed from the DOM
 3. Demonstrate an understanding of class component lifecycle methods.
-render, pre-commit, commit
+constructor - sets the initial state
+render - returns to the DOM
+componentDidMount - mounts and updates the state
 4. Define stateful logic.
 having a parent component pass data down to its child component with state management.
 5. Describe how to test a React component with React Testing Library.
-just like in cypress, you enter values and check if it returns the value you are looking for. 
+just like in cypress, you enter values and check if it returns the value you are looking for 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
