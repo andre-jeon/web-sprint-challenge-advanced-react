@@ -29,14 +29,15 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
-
+with a constructor function
 2. Describe the different phases of the component lifecycle.
-
+mounting, updating, unmounting
 3. Demonstrate an understanding of class component lifecycle methods.
-
+render, pre-commit, commit
 4. Define stateful logic.
-
+having a parent component pass data down to its child component with state management.
 5. Describe how to test a React component with React Testing Library.
+just like in cypress, you enter values and check if it returns the value you are looking for. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -107,7 +108,7 @@ _Note: You built a useForm hook in the guided project this week. You will probab
 
 #### Testing the Checkout Form
 
-- [ ] Build out the tests listed in `CheckoutForm.test.js`. You will need to make sure they are testing what the test title implies they are testing
+- [x] Build out the tests listed in `CheckoutForm.test.js`. You will need to make sure they are testing what the test title implies they are testing
 - [ ] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working
 
 <hr/>
