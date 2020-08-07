@@ -78,13 +78,13 @@ _Please follow the setup instructions closely so that you can get everything up 
 
 **Starting your test runner**
 
-- [ ] In the final terminal window, make sure you are in the `client` folder still
-- [ ] Start the test runner with `npm test` (I recommend doing this only when you're testing - any change in your app will make the tests run, and that could eat up your computer power)
+- [x] In the final terminal window, make sure you are in the `client` folder still
+- [x] Start the test runner with `npm test` (I recommend doing this only when you're testing - any change in your app will make the tests run, and that could eat up your computer power)
 
 **Commit and Push OFTEN!**
 
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [x] Implement the project on this Branch, **committing progress & changes often.**
+- [x] Push commits: `git push origin <firstName-lastName>`.
 
 ### Task 2: Project Requirements
 
@@ -113,7 +113,7 @@ _Note: You built a useForm hook in the guided project this week. You will probab
 #### Testing the Checkout Form
 
 - [x] Build out the tests listed in `CheckoutForm.test.js`. You will need to make sure they are testing what the test title implies they are testing
-- [ ] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working
+- [x] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working
 
 <hr/>
 In your solution, it is essential that you follow best practices and produce clean and professional results. You will be scored on your adherence to proper code style and good organization. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
