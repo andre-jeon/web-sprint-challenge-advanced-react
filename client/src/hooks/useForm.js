@@ -10,5 +10,11 @@ export const useForm = (initialValue) => {
             [e.target.name]: e.target.value
         })
     }
-        return [value, handleChanges]      
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setShowSuccessMessage(true);
+    }
+
+        return [value, handleChanges, handleSubmit]      
 }
